@@ -1,0 +1,7 @@
+site_name: MKLourum
+nav:
+  - Home: index.md
+  - About: about.md
+  - license: license.md
+  - myAbout: about/myabout.md
+theme: readthedocs

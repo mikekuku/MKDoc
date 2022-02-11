@@ -14,5 +14,9 @@ jobs:
       - run: pip install mkdocs-material
           mkdocs-material \
           mkdocs-awesome-pages-plugin \
-          mkdocs-git-revision-date-localized-plugin \
-      - run: mkdocs gh-deploy --force
+      - name: Install git-revision-date
+        run: |
+          pip install pyflakes
+          pyflakes mkdocs-git-revision-date-localized-plugin
+      - name: Deployement
+        run: mkdocs gh-deploy --force

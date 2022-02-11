@@ -15,6 +15,7 @@ jobs:
           mkdocs-material \
           mkdocs-awesome-pages-plugin \
           mkdocs_git_revision_date_localized_plugin \
+          mkdocs-git-revision-date-plugin \
       # - name: Install git-revision-date
       #   run: |
       #     pip install pyflakes
